@@ -1,0 +1,412 @@
+* { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; outline: 0px; font-family: Oswald, sans-serif; text-decoration: none; }
+body { 
+}
+
+header { height: 100vh; background: url("./img/Musicology1.png") center center / cover no-repeat; }
+/* =======================navigation================= */
+nav { height: 100px; background: rgb(48, 48, 48); display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; }
+nav a { }
+nav a img { }
+ul { list-style: none; color: white; text-transform: uppercase; }
+ul li { display: inline-block; margin: 0px 16px; font-size: 20px; font-weight: 500; }
+ul li a { }
+input { }
+.search-icon { color: white; font-size: 24px; }
+/* =======================hero-part==================== */
+
+.hero { height: calc(100vh - 100px); display: flex; flex-flow: column wrap; justify-content: center; width: 90%; margin: auto; color: white; }
+.hero h1 { font-size: 80px; font-weight: 600; }
+.hero p { width: 49%; font-size: 20px; margin: 20px 0px; font-weight: 600; }
+.hero a button { width: 192px; background: rgb(232, 99, 28); color: white; text-transform: uppercase; font-size: 23px; border-radius: 6px; }
+/* ========================dance-tour-part=================== */
+#dance-tour { background-color: rgb(232, 99, 28); }
+.writing-part-one { align-items: center; display: flex; flex-flow: column wrap; justify-content: center; color: white; }
+.writing-part-one h1 { margin-top: 50px; text-transform: uppercase; font-size: 46px; }
+.writing-part-one p { font-size: 24px; width: 629px; margin-top: 25px; font-weight: 300; line-height: 31px; }
+.dance-tour-img { display: flex; flex-flow: row wrap; justify-content: space-evenly; }
+.img-one { background: black; color: white; margin: 66px 0px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center; }
+.img-one h2 { font-size: 30px; text-transform: uppercase; }
+.img-one img { width: 365px; }
+.img-one p { font-weight: 200; font-size: 28px; width: 263px; }
+/* ===========================pricing-part=================== */
+#pricing-part { background: rgb(48, 48, 48); }
+.writing-part-two { align-items: center; display: flex; flex-flow: column wrap; justify-content: center; color: white; }
+.writing-part-two h1 { margin-top: 50px; text-transform: uppercase; font-size: 46px; }
+.writing-part-two p { font-size: 24px; width: 629px; margin-top: 25px; font-weight: 300; line-height: 31px; }
+.pricing-img { display: flex; flex-flow: row wrap; justify-content: space-evenly; }
+.img-two {background: rgb(232, 99, 28);color: white;margin: 66px 0px;display: flex;flex-flow: column wrap;justify-content: center;align-items: center;width: 27%;}
+.img-two img {width: 108px;margin: 28px;}
+.img-two h2 { font-size: 30px; text-transform: uppercase; }
+.img-two p { font-weight: 200; font-size: 28px; width: 263px; }
+.img-two button {background: rgb(48, 48, 48);color: white;width: 80%;margin: 20px;padding: 10px 0px;border-radius: 8px;font-size: 24px;}
+/* ============================amazing-dance-part==================== */
+#amazing-dance-part{
+    background: #e8631c;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 925px;
+}
+
+.img-three{
+    width: 50%;
+}
+.img-three img{width: 100%;}
+.writing-part-three{
+    width: 50%;
+    padding: 0px 184px;
+    color: white;
+}
+.writing-part-three h1{
+
+text-transform: uppercase;
+
+font-size: 42px;
+}
+.writing-part-three p{
+
+font-weight: 300;
+
+width: 399px;
+
+font-size: 21px;
+
+line-height: 23px;
+
+margin: 28px 0px;
+}
+.writing-part-three button{
+
+width: 189px;
+
+background: #303030;
+
+color: white;
+
+padding: 4px 0px;
+
+font-size: 21px;
+
+text-transform: uppercase;
+
+border-radius: 9px;
+}
+/* ==============================best-dance-part======================== */
+#best-dance-part{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #e8631c;
+    height: 923px;
+}
+
+.writing-part-four{
+    width: 50%;
+    padding: 0px 184px;
+    color: white;
+
+
+}
+.writing-part-four h1{
+    text-transform: uppercase;
+
+font-size: 42px;
+
+}
+.writing-part-four p{
+    font-weight: 300;
+
+width: 399px;
+
+font-size: 21px;
+
+line-height: 23px;
+
+margin: 28px 0px;
+
+}
+.writing-part-four button{
+    width: 189px;
+
+background: #303030;
+
+color: white;
+
+padding: 4px 0px;
+
+font-size: 21px;
+
+text-transform: uppercase;
+
+border-radius: 9px;
+}
+.img-four{
+    width: 50%;
+
+}
+.img-four img{
+    width: 100%;
+
+}
+/* =====================statistics-part-one================== */
+#statistics-part-one{
+    background: #303030;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.writing-part-five{
+
+width: 50%;
+
+margin: 80px 0px;
+}
+.writing-part-five h1{
+
+margin: 0px auto;
+
+width: 50%;
+
+font-size: 47px;
+
+font-weight: 500;
+}
+.writing-part-five p{
+
+width: 86%;
+
+margin: 12px auto;
+
+font-size: 22px;
+
+font-weight: 300;
+}
+.number-part{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 135px;
+}
+.number{width: 33%;margin: 0px auto;}
+.number h1{
+
+font-size: 40px;
+
+width: 38%;
+
+margin: 0px auto;
+}
+.number h2{
+
+font-weight: 300;
+
+font-size: 33px;
+
+text-transform: capitalize;
+
+width: 39%;
+
+margin: 0px auto;
+}
+/* =====================statistics-part-two====================== */
+#statistics-part-two{
+    background: url(./img/bg.png) no-repeat center;
+    background-size: cover;
+}
+.statistics-two{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 919px;
+}
+
+.statistics-two p{
+
+font-size: 32px;
+
+width: 47%;
+
+font-weight: 300;
+
+line-height: 36px;
+}
+.statistics-two h1{
+
+font-size: 48px;
+
+margin-top: 29px;
+}
+/* ===================subscribe-part================ */
+#subscribe-part{
+
+background: #e8631c;
+}
+.subscribe{
+
+flex-flow: column wrap;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height: 777px;
+
+color: white;
+}
+.subscribe h1{
+
+font-size: 53px;
+}
+.subscribe p{
+    
+width: 54%;
+    
+font-size: 25px;
+    
+font-weight: 300;
+}
+.input{
+    
+display: flex;
+    
+flex-flow: row wrap;
+    
+justify-content: center;
+    
+align-items: center;
+    
+width: 50%;
+    
+margin-top: 50px;
+}
+input[type="email"]{
+
+padding: 7px;
+
+width: 50%;
+
+text-transform: capitalize;
+
+font-size: 22px;
+}
+input[type="submit"]{
+    
+width: 24%;
+    
+padding: 7px;
+    
+font-size: 22px;
+    
+color: white;
+    
+background: #303030;
+    
+text-transform: uppercase;
+}
+
+
+
+/* ==========================footer-part===================== */
+#footer-part{
+
+background: #303030;
+
+}
+.footer{
+
+    
+color: white;
+
+display: flex;
+
+flex-flow: row wrap;
+}
+.musicology{
+
+width: 40%;
+}
+.musicology h1{
+
+text-transform: uppercase;
+
+font-size: 36px;
+
+margin-top: 70px;
+}
+.musicology p{
+
+width: 70%;
+
+margin: 30px 0px;
+
+font-size: 18px;
+
+font-weight: 300;
+}
+.icon{
+margin-bottom: 50px;
+}
+.icon i{font-size: 30px;margin: 5px 17px;background: white;color: #303030;width: 37px;padding: 5px;border-radius: 50px;}
+.about{
+
+width: 20%;
+}
+.about h1{
+
+font-size: 36px;
+
+text-transform: uppercase;
+
+margin-top: 70px;
+}
+.about p{
+
+font-size: 20px;
+
+font-weight: 300;
+
+text-transform: capitalize;
+}
+.services{
+
+width: 20%;
+}
+.services h1{
+
+font-size: 36px;
+
+text-transform: uppercase;
+
+margin-top: 70px;
+}
+.services p{font-size: 20px;font-weight: 300;text-transform: capitalize;}
+.other{
+
+width: 20%;
+}
+.other h1{
+
+font-size: 36px;
+
+text-transform: uppercase;
+
+margin-top: 70px;
+}
+.other p{
+
+text-transform: capitalize;
+
+font-size: 20px;
+
+font-weight: 300;
+}
